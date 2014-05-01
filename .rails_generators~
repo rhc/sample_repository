@@ -1,0 +1,357 @@
+---
+sass:assets:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+sass:scaffold:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+scss:assets:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+scss:scaffold:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+rspec:view:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --template-engine=
+rspec:controller:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --template-engine=
+- --controller-specs
+- --view-specs
+rspec:scaffold:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --force-plural
+- --orm=
+- --template-engine=
+- --singleton
+- --controller-specs
+- --view-specs
+- --webrat
+- --webrat-matchers
+- --helper-specs
+- --routing-specs
+- --integration-tool=
+rspec:model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --fixture
+- --fixture-replacement=
+rspec:mailer:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+rspec:helper:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --helper-specs
+rspec:integration:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --request-specs
+- --webrat
+- --webrat-matchers
+rspec:observer:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+rspec:install:
+- --force
+- --pretend
+- --quiet
+- --skip
+jquery:install:
+- --force
+- --pretend
+- --quiet
+- --skip
+jbuilder:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --force-plural
+scaffold_controller:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --force-plural
+- --orm=
+- --template-engine=
+- --test-framework
+- --helper
+jbuilder_scaffold_controller:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --force-plural
+- --orm=
+- --template-engine=
+- --test-framework
+- --helper
+- --json-template-engine=
+factory_girl:model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --dir=
+cucumber:install:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --spork
+- --skip-database
+coffee:assets:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+integration_test:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --integration-tool=
+controller:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --template-engine=
+- --test-framework
+- --helper
+- --assets
+assets:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --javascripts
+- --stylesheets
+- --javascript-engine=
+- --stylesheet-engine=
+model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --orm
+resource:
+- --template-engine=
+- --test-framework
+- --helper
+- --assets
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --orm
+- --force-plural
+- --resource-controller=
+- --actions=
+- --resource-route
+scaffold:
+- --template-engine=
+- --test-framework
+- --helper
+- --javascripts
+- --javascript-engine=
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --orm
+- --force-plural
+- --resource-route
+- --stylesheets
+- --stylesheet-engine=
+- --assets
+- --scaffold-controller=
+resource_route:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+migration:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --orm
+generator:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --namespace
+task:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+helper:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --test-framework
+plugin_new:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --help
+- --ruby=
+- --template=
+- --skip-gemfile
+- --skip-bundle
+- --skip-git
+- --skip-keeps
+- --skip-active-record
+- --skip-sprockets
+- --database=
+- --javascript=
+- --skip-javascript
+- --dev
+- --edge
+- --skip-test-unit
+- --rc=
+- --no-rc
+- --dummy-path=
+- --full
+- --mountable
+- --skip-gemspec
+- --skip-gemfile-entry
+test_unit:controller:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+test_unit:scaffold:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --force-plural
+test_unit:plugin:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+test_unit:model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --fixture
+- --fixture-replacement=
+test_unit:mailer:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+test_unit:helper:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+test_unit:integration:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+js:assets:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+active_record:model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --migration
+- --timestamps
+- --parent=
+- --indexes
+- --test-framework
+active_record:migration:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+mailer:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --template-engine=
+- --test-framework

@@ -1,3 +1,4 @@
+# vim: ft=ruby
 source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
@@ -13,6 +14,7 @@ gem 'bootstrap-will_paginate', '0.0.9'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'pry', github: 'chronomantic/pry', branch: 'with_debugging'
   gem 'guard', github: 'guard', branch: 'attempt_to_fix_pry_crashes'
   gem 'guard-rspec'
   gem 'spork-rails'
