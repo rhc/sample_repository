@@ -19,9 +19,10 @@ describe User do
   it { should be_valid }
 
   it { should respond_to(:admin) }
+  it { should_not be_admin }
   it { should respond_to(:microposts) }
   it { should respond_to(:feed) }
-  it { should_not be_admin }
+  it { should respond_to(:relationships)}
 
   describe "with admin attribute set to 'true'" do
     before do
